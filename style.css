@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.page-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page-content__title {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  /* position: absolute; */
+}
+
+.page-content__section {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-map {
+  display: block;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.polys {
+  fill: transparent;
+}
+
+.polys:hover {
+  fill: rgb(256 256 256 / 60%);
+}
+
+.popover {
+  background-color: azure;
+  padding: .25rem 1rem;
+  max-width: 200px;
+}
